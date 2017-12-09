@@ -7,7 +7,6 @@ public class ThreeSum {
             for(int j = i+1; j < N; j++){
                 for(int k = j+1; k < N; k++){
                     if(a[i] + a[j] + a[k] == 0){
-                        StdOut.printf("%d, %d, %d\n",a[i], a[j], a[k]);
                         cnt++;
                     }
                 }
